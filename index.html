@@ -50,14 +50,9 @@
 		<!--=        Navbar         =-->
 		<!--=========================-->
 
-
-		<!-- Image and text -->
-
-
-
-		<header id="header" class="navbar-small">
-			<div class="container-fluid" style="color: white;padding-left: 35%;background-color: rgb(0, 0, 0);">
-				<div class="row align-items-center " style= "padding-left: 5%;">
+		<header id="header" style="z-index: 10000;position: fixed;">
+			<div class="container-fluid" style="color: white;padding-left: 35%;background-color: rgb(0, 0, 0); width: 100%;">
+				<div class="row align-items-center " >
 						<div class="col-4">
 							<h5 style="left: 5%">Follow Us</h5>
 						</div>
@@ -72,25 +67,20 @@
 									<i class="fa fa-instagram"></i><span></span>
 								</a>
 							</div>
-
-						 <!-- /row -->
-					
-
 				</div>
-
 			</div>
 
-			<div class="container">
-				<nav class="navbar">
+		<div class="container ">
+				
+				<nav class="navbar ">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-							data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 						<a class="navbar-brand" href="#">
 							<img class="logo-light" src="assets/img/Lamara.png" alt="">
 							<img class="logo-dark" src="assets/img/Lamara.png" alt="">
@@ -101,12 +91,14 @@
 					<div class="main-menu collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-						<ul class="nav navbar-nav navbar-right " style="height: 60px;">
+						<ul class="nav navbar-nav navbar-right">
 							<li><a href="#wrapper">Home</a></li>
-							<li><a href="#service">About</a></li>
-							<li><a href="#history">Facilities</a></li>
-							<li><a href="#portfolio">Gallery</a></li>
-							<li><a href="#contact">Request Query</a></li>
+							<li><a href="#service">Service</a></li>
+							<li><a href="#history">Company</a></li>
+							<li><a href="#catogories">CATOGORY</a></li>
+							<li><a href="#portfolio">PRODUCTS</a></li>
+							<li><a href="#chooseus">WHY CHOOSE US</a></li>
+							<li><a href="#blog">LAUNCHING</a></li>
 							<li><a href="#contact">Contact</a></li>
 							<li class="search-btn"><a href="#"><i class="fa fa-search"></i></a></li>
 
@@ -149,8 +141,7 @@
 							<br>
 
 
-							<a href="#history" class="gp-btn gp-bn-active" data-animate="fadeInUp" data-delay="0.8s"
-								data-duration="0.5">Explore More</a>
+							
 						</div>
 					</div>
 					<div class="swiper-slide" data-bg-image="media/banner/Lamara3.jpg" data-parallax="image">
@@ -175,8 +166,7 @@
 							<br>
 							<br>
 
-							<a href="#history" class="gp-btn gp-bn-active" data-animate="fadeInUp"
-								data-delay="0.7s">Learn More</a>
+						
 
 						</div>
 					</div>
@@ -200,9 +190,6 @@
 							<br>
 							<br>
 							<br>
-
-							<a href="#chooseus" class="gp-btn gp-bn-active" data-animate="fadeInUp"
-								data-delay="0.7s">Learn More.</a>
 						</div>
 					</div>
 
@@ -232,7 +219,6 @@
 					</p>
 				</div>
 
-				<div class="container">
 					<div class="row">
 						<div class="section-title text-center">
 							<div class="blog-grid">
@@ -337,11 +323,27 @@
 								</div>
 							</div>
 
+							<div class="col-md-4">
+								<div class="blog">
+									<div class="blog-thumb">
+										<a href=""><img src="media/blog/Surveying.jpg" alt=""></a>
+									</div>
+	
+								<div class="blog-content">
+										<h3 class="blog-title"><a href="">Surveying</a></h3>
+									
+										<p>
+											 Lacaza is back in action. It Ensures Interguing and fascinating journey out the game. Are you raedy to face the most intellectual virtual game with unexpected twist and huge amount of fun?!
+										</p>
+										<center><a href="media/documents/events/lacazapdf.pdf" class="gp-btn">Brouchure</a></center>
+									</div>
+								</div>
+							</div>
+
 							</div>
 								</div>
 						</div>
 					</div>
-				</div>
 				
 				<!-- /.service-items -->
 
@@ -967,11 +969,7 @@
 			transform: rotateX(20deg);
 		}
 
-		button:active {
-			top: 0px;
-			box-shadow: 0px 0px 0px rgba(15, 165, 60, 0.0);
-			background: rgba(20, 224, 133, 1);
-		}
+		
 		.social-icon{
 			padding-top: 8px;
 		}
