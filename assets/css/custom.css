@@ -63,3 +63,7 @@ body {
 #chooseus{
     margin-bottom: 25px !important;
 }
+
+.team-style{
+    width: 260px; height: 230px;
+}
